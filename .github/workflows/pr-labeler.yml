@@ -91,16 +91,14 @@ jobs:
 
           // Check if this is the author's first PR
           // Use the pulls.list API instead of search to avoid permission issues
-          const prAuthor = context.payload.pull_request.user.login;
-          try {
-            const { data: authorPRs } = await github.rest.pulls.list({
-              owner,
-              repo,
-              state: 'all',
-              per_page: 100
-            });
-
-            // Filter PRs by this author
+          const { data } = await github.rest.search.issuesAndPullRequests({
+            q: `repo:${owner}/${repo} is:pr author:${prAuthor}`,
+          });
+          if (data.total_count === 1) {
+            labels.add('first-contribution');
+            labels.add('good-first-issue');
+          }
+                      // Filter PRs by this author
             const userPRs = authorPRs.filter(pr => pr.user.login === prAuthor);
 
             if (userPRs.length === 1) {
