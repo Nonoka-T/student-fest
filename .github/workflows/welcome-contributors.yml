@@ -116,10 +116,17 @@ jobs:
         script: |
           const { owner, repo } = context.repo;
           const prNumber = context.payload.pull_request.number;
-          const prFiles = context.payload.pull_request.changed_files;
+          // Fetch changed files in the PR
+          const { data: files } = await github.rest.pulls.listFiles({
+            owner,
+            repo,
+            pull_number: prNumber
+          });
+
+          const prFiles = files; // This is an array of file objects
 
           const labels = [];
-
+          
           // Determine contribution type based on files changed
           if (prFiles.some(file => file.filename.startsWith('profiles/'))) {
             labels.push('profile');
