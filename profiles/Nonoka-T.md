@@ -2,33 +2,32 @@
 
 ## 👋 Quick Intro
 - **Name**: Nonoka Takahashi
-- **Location**: Australia
+- **Location**: Australia🌍
 - **Role**: Student
-- **GitHub**: [@Nonoka-T] (https://github.com/Nonoka-T)
+- **GitHub**: [@Nonoka-T](https://github.com/Nonoka-T)
 
 ## 🌟 About Me
 
 Write a brief description about yourself:
-- What you're passionate about
-- What you're currently learning - Python, C#, HTML, CSS, Javascript, SQL
+- What you're currently learning - Python Open Source, C# Mobile application development, API, HTML, CSS, Javascript
 - Your favorite programming languages - C#, HTML, CSS
-- Fun facts about you - I'm an international student from Japan, learning programming in Australia.
-- Your development journey - Finished certificate 3 in Web Development and currently doing certificate 4 including Open Source, Web development, Mobile application development.
+- Fun facts about you - I'm an international student from Japan, studying programming in Australia.
+- Your development journey - Web development, Mobile application development
 
 ## 🎯 Current Focus
 
-- **Learning**: What you're currently studying - Open source (Python), Mobile Application Development with API (C#), HTML/CSS/Javascript using API
-- **Building**: Projects you're working on - Contributing with open source
-- **Exploring**: Technologies you want to try
-- **Goals**: What you want to achieve this year - Finish certificate 4 and develop more skills in diploma.
+- **Learning**: What you're currently studying - Open Source (Python), Mobile Application development using API (C#), Web development using API (HTML/CSS/Javascript)
+- **Building**: Projects you're working on  - Open Source contribution
+- **Goals**: What you want to achieve this year - complete certificate 4 in programming and develop more skills in diploma.
 
 
 ## 📫 Connect With Me
 
-- 🌐 **Portfolio**: (https://github.com/Nonoka-T)
+- 🌐 **Portfolio**: [Nonoka-T](https://github.com/Nonoka-T)
 
 
 ## 🎉 Fun Section
 
 Add something unique about yourself:
 - Hobbies outside coding - Traveling, Journaling
+
