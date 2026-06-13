@@ -2,4 +2,6 @@ _site/
 node_modules/
 yarn-error.log
 coverage/
-vendor__pycache__/
+vendor
+__pycache__/
+.idea
